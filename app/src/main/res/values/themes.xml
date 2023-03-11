@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.API" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_blue</item>
+        <item name="colorPrimaryVariant">@color/sec_blue</item>
+        <item name="colorOnPrimary">@color/main_grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_grey</item>
+        <item name="colorSecondaryVariant">@color/sec_grey</item>
+        <item name="colorOnSecondary">@color/sec_blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/grey_1</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    
+    <style name="SoftCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="newsDetailThumbnail">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+    </style>
+</resources>
